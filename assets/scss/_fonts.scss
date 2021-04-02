@@ -1,0 +1,34 @@
+// FONT FAMILY
+$fontLight-overpass: Overpass-Light;
+$fontSemiBold-overpass: Overpass-SemiBold;
+$fontMedium-ubuntu: Ubuntu-Medium;
+$fontRegular-ubuntu: Ubuntu-Regular;
+$fontBold-ubuntu: Ubuntu-Bold;
+
+/*** Fonts Overpass ****/
+
+@font-face {
+    font-family: $fontLight-overpass;
+    src: url("../../assets/fonts/Overpass/Overpass-Light.ttf");
+}
+
+@font-face {
+    font-family: $fontSemiBold-overpass;
+    src: url("../../assets/fonts/Overpass/Overpass-SemiBold.ttf");
+}
+
+/*** Fonts Ubuntu ****/
+
+@font-face {
+    font-family: $fontMedium-ubuntu;
+    src: url("../../assets/fonts/Ubuntu/Ubuntu-Medium.ttf");
+}
+@font-face {
+    font-family: $fontRegular-ubuntu;
+    src: url("../../assets/fonts/Ubuntu/Ubuntu-Regular.ttf");
+}
+@font-face {
+    font-family: $fontBold-ubuntu;
+    src: url("../../assets/fonts/Ubuntu/Ubuntu-Bold.ttf");
+}
+
