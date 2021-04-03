@@ -110,8 +110,9 @@ body {
             .btn:hover {
                 cursor: pointer;
             }
-            .btn:focus {
-                box-shadow: 0!important;
+            .btn:focus, .input[type='radio']:focus{
+                box-shadow: none!important;
+                outline: 0!important;
             } 
         }
     }
@@ -460,7 +461,7 @@ body {
             height: 800px!important;
 
             .col {
-                order:vertical;
+                // order:vertical;
                 width: 80%!important;
             }
 
